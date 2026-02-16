@@ -24,6 +24,11 @@ sudo apt install -y \
 echo -e "${GREEN}Base tools installed.${NC}\n"
 
 
+echo -e "${BLUE}Installing Apache2...${NC}"
+./install_apache.sh
+echo -e "${GREEN}Apache2 installed.${NC}"
+
+
 echo -e "${BLUE}Installing PHP...${NC}"
 ./install_php.sh
 echo -e "${GREEN}PHP installed.${NC}\n"
