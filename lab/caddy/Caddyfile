@@ -1,0 +1,23 @@
+{
+  local_certs
+}
+
+lab.arpa {
+  reverse_proxy homepage:3000
+}
+
+home.lab.arpa {
+  reverse_proxy 192.168.86.33:8123
+}
+
+adguard.lab.arpa {
+  reverse_proxy 192.168.86.33:8083
+}
+
+vault.lab.arpa {
+  reverse_proxy 192.168.86.33:8000
+}
+
+code.lab.arpa {
+  reverse_proxy 192.168.86.33:8443
+}
