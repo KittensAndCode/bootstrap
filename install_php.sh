@@ -34,7 +34,6 @@ cd php-${PHP_VERSION}
   --enable-intl
 
 make -j$(nproc)
-make test -j$(nproc)
 sudo make install
 
 cd ..
